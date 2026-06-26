@@ -479,6 +479,117 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Graphic:SYM_Arrow_Tiny"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at 0 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SYM_Arrow_Tiny"
+				(at 0.254 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Filled arrow, 100mil"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "symbol arrow"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SYM_Arrow_Tiny_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.508 -0.254) (xy 0.508 0.254) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:TVS2200DRV"
 			(pin_names
 				(offset 0)
@@ -1463,7 +1574,7 @@
 			(uuid "26fc6f2a-744c-484d-adda-c5271edb1607")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "C1")
 					(unit 1)
@@ -1542,7 +1653,7 @@
 			(uuid "27c86bd3-e19b-4527-b86b-5309b1628c8e")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "R1")
 					(unit 1)
@@ -1639,7 +1750,7 @@
 			(uuid "eb4a5797-3d05-492d-96d9-19400156d584")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "U1")
 					(unit 1)
@@ -1717,9 +1828,94 @@
 			(uuid "0f85b4d9-15cd-4f7f-97e2-fbd0d598c468")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Arrow_Tiny")
+		(at 92.71 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47748f9d-c1b2-4111-9039-d6b8f6d8f361")
+		(property "Reference" "#SYM2"
+			(at 91.186 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Solar Charger Input"
+			(at 97.536 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Filled arrow, 100mil"
+			(at 92.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 92.71 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Solar Charger EMI Filter Circuit"
+				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
+					(reference "#SYM2")
 					(unit 1)
 				)
 			)
@@ -1799,7 +1995,7 @@
 			(uuid "aa8a1a7b-b924-4ca4-abff-0f1c1d7b22d2")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "C2")
 					(unit 1)
@@ -1879,7 +2075,7 @@
 			(uuid "8db226db-565d-4420-b5be-c8111efe229b")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "L1")
 					(unit 1)
@@ -1957,7 +2153,7 @@
 			(uuid "9a3d1b1e-e336-4783-b1ca-6c7cf2a59b38")
 		)
 		(instances
-			(project "EMI Filter Circuit"
+			(project "Solar Charger EMI Filter Circuit"
 				(path "/69b9a1ba-77db-47c8-8030-873a2f93f08d"
 					(reference "#PWR02")
 					(unit 1)
